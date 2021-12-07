@@ -11,10 +11,10 @@ class StaticPagesController extends Controller
     }
 
     public function help(): string {
-        return '帮助页';
+        return view('static_pages/help');
     }
 
     public function about(): string {
-        return '关于页';
+        return view('static_pages/about');
     }
 }
